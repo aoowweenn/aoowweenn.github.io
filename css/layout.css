@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .adwards, .certifications, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -355,6 +355,31 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.ccpp {
+  	width: 90%;
+  	-moz-animation: ccpp 2s ease;
+  	-webkit-animation: ccpp 2s ease;
+}
+.python {
+  	width: 70%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+.lamp {
+  	width: 70%;
+  	-moz-animation: lamp 2s ease;
+  	-webkit-animation: lamp 2s ease;
+}
+.matlab {
+  	width: 75%;
+  	-moz-animation: matlab 2s ease;
+  	-webkit-animation: matlab 2s ease;
+}
+.verilog {
+  	width: 65%;
+  	-moz-animation: verilog 2s ease;
+  	-webkit-animation: verilog 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -380,6 +405,26 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes ccpp {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes lamp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes matlab {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes verilog {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -404,6 +449,76 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes ccpp {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes lamp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes matlab {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes verilog {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Projects Section
+/* ------------------------------------------------------------------ */
+
+#projects {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#projects a, #projects a:visited  { color: #11ABB0; }
+#projects a:hover, #projects a:focus { color: #313131; }
+
+#projects h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#projects h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#projects h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#projects .header-col { padding-top: 9px; }
+#projects .main-col { padding-right: 10%; }
+
+.software {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#projects .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#projects .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#projects .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -630,7 +745,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +769,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1003,4 +1118,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
